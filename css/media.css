@@ -1,0 +1,114 @@
+@media screen and (min-width: 550px) and (max-width: 1200px) {
+    body header nav {
+        justify-content: space-around;
+        padding: 0 15px;
+    }
+    body .receive, body .expand,
+    body .process, body .we_do1, 
+    body .we_do2, body .we_do3, 
+    body .portfolio, body .our_team {
+        padding: 50px 15px 0;
+    }
+    body .expand .main_text {
+        padding: 30px;
+    }
+    body .expand .main_text h1 {
+        font-size: 30px;
+    }
+    body a.arrowDown {
+        margin-bottom: 20px;
+    }
+
+}
+@media screen and (max-width: 549px) {
+    body h2 {
+        font-size: 22px;
+    }
+    body h3 {
+        font-size: 18px;
+    }
+    body a.button2 {
+        margin: 0 auto;
+    }
+    body header {
+        height: 100vh;
+        padding: 10px;
+    }
+    body .receive, body .expand,
+    body .process, body .we_do1,
+    body .we_do2, body .we_do3, 
+    body .portfolio, body .our_team {
+        padding: 25px 5px 0;
+    } 
+    body header nav {
+        padding: 0 20px;
+    }
+    body header nav menu {
+        flex-direction: column;
+        gap: 5px;
+    }
+    body header .main_title h1 {
+        font-size: 35px;
+        margin-top: -20px;
+    }
+    body header .main_title p {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    body .receive .icons {
+        flex-wrap: wrap;
+    }
+    body .receive .icons div {
+        flex-basis: 100%;
+      }
+    body .receive .icons div p {
+        margin-top: 0;
+    }
+    body .receive p, 
+    body .process p {
+        font-size: 15px;
+    }
+    body .expand {
+        padding: 50px 20px 0;
+    }
+    body .expand .main_text {
+        padding: 20px;
+    }
+    body .expand .main_text h1 {
+        font-size: 25px;
+    }
+    body .process .steps {
+        display: block;
+    }
+    body .process .img_process {
+        display: none;
+    }
+    body .we_do1 div,
+    body .we_do2 div,
+    body .we_do3 div {
+        flex-direction: column;
+        align-items: center;
+    }
+    body .we_do1 div .left,
+    body .we_do2 div .left,
+    body .we_do3 div .left {
+        order: 2;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    body .we_do1 div .right,
+    body .we_do2 div .right,
+    body .we_do3 div .right {
+        order: 1;
+        max-width: 100%;
+    }
+    body a.arrowDown {
+        margin-bottom: 20px;
+    }
+    body .our_team div {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+}
